@@ -129,53 +129,33 @@ main p {
   top: 1rem;
 }
 
+/*section philosophy*/
 
-
-/*
-main .site-container {
+section .site-container {
   display: flex;
   justify-content: center;
-  border: 2px solid blue;
 }
-
-.services {
-  height: 8rem;
-  border: 5px solid black;
-}
-
-.icons-container {
-  border: 2px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 
 .description {
-  display: flex;
-  justify-content: space-between;
+  width: 35%;
 }
 
-main img {
-  max-width: 3.5rem;
+.philo {
+  background-color: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
 }
 
-#ruler {
-  margin-left: 6rem;
-  margin-right: 6rem;
+section p {
+  margin-top: 1rem;
 }
 
-.description div {
-  border: 2px solid green;
-  width: 5rem;
-  text-align: center;
+#appointments {
+  margin-left: 5%;
 }
-
-*/
-
-
-
-
 
 /*footer*/
 
