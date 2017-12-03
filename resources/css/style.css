@@ -138,6 +138,7 @@ section .site-container {
 
 .description {
   width: 35%;
+  margin-right: 5%;
 }
 
 .philo {
@@ -153,9 +154,6 @@ section p {
   margin-top: 1rem;
 }
 
-#appointments {
-  margin-left: 5%;
-}
 
 /*footer*/
 
