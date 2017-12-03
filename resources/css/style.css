@@ -31,6 +31,7 @@ header {
   background-size: cover;
   /*verify height if 30 or 31 rem*/
   height: 30rem;
+  /*verify if padding here or margin to the header*/
   padding-top: 1rem;
 }
 
@@ -63,4 +64,23 @@ nav div {
 nav {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+
+/*slogan*/
+
+.slogan-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+
+.slogan {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 3rem;
+  position: relative;
+  left: 2rem;
 }
