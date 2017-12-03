@@ -17,11 +17,6 @@ body {
   margin: 0 auto;
 }
 
-.header-font {
-  font-size: 1rem;
-  color: white;
-}
-
 /*header*/
 
 header {
@@ -29,18 +24,17 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /*verify height if 30 or 31 rem*/
   height: 30rem;
-  /*verify if padding here or margin to the header*/
   padding-top: 1rem;
-}
-
-
-/*header bar*/
-
-header {
   margin-bottom: 3rem;
 }
+
+.header-font {
+  font-size: 1rem;
+  color: white;
+}
+
+/*header bar*/
 
 .header-bar {
   background-color: cadetblue;
@@ -56,8 +50,7 @@ header {
 
 header img {
   height: 1.5rem;
-  margin-left: 2rem;
-  margin-right: 1rem;
+  margin: 0 1rem 0 2rem;
 }
 
 nav div {
@@ -66,10 +59,8 @@ nav div {
 }
 
 nav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
-
 
 /*slogan*/
 
@@ -77,18 +68,17 @@ nav {
   display: flex;
   justify-content: flex-end;
   margin-top: 10rem;
-}
-
-.slogan {
-  background-color: white;
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
-  padding: 1.5rem 3rem;
   position: relative;
   left: 2rem;
 }
 
+.slogan {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
 
 /*services*/
 
@@ -124,10 +114,8 @@ main p {
 }
 
 .ruler {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin: 0 6rem;
 }
-
 
 /*section philosophy*/
 
@@ -153,7 +141,6 @@ section .site-container {
 section p {
   margin-top: 1rem;
 }
-
 
 /*footer*/
 
