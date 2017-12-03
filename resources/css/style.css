@@ -38,6 +38,10 @@ header {
 
 /*header bar*/
 
+header {
+  margin-bottom: 3rem;
+}
+
 .header-bar {
   background-color: cadetblue;
   display: flex;
@@ -84,6 +88,91 @@ nav {
   position: relative;
   left: 2rem;
 }
+
+
+/*services*/
+
+main {
+  margin-bottom: 3rem;
+}
+
+main .site-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main img {
+  width: 3.5rem;
+}
+
+main p {
+  text-align: center;
+}
+
+.ruler {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+#ruler,
+#truck {
+  position: relative;
+  top: 1rem;
+}
+
+
+
+/*
+main .site-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.services {
+  height: 8rem;
+  border: 5px solid black;
+}
+
+.icons-container {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+main img {
+  max-width: 3.5rem;
+}
+
+#ruler {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.description div {
+  border: 2px solid green;
+  width: 5rem;
+  text-align: center;
+}
+
+*/
+
 
 
 
