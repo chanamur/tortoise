@@ -12,6 +12,11 @@ body {
   margin: 0 auto;
 }
 
+.header-font {
+  font-size: 1rem;
+  color: white;
+}
+
 /*header*/
 
 header {
@@ -26,6 +31,12 @@ header {
 
 /*header bar*/
 
-nav {
+.header-bar {
   background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline;
 }
