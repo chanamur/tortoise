@@ -84,3 +84,27 @@ nav {
   position: relative;
   left: 2rem;
 }
+
+
+
+
+/*footer*/
+
+footer {
+  margin-top: 5rem;
+}
+
+footer .site-container {
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
