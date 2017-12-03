@@ -110,8 +110,13 @@ main .site-container {
   align-items: center;
 }
 
-main img {
+#paper {
   width: 3.5rem;
+}
+
+#ruler,
+#truck {
+  width: 5rem;
 }
 
 main p {
@@ -123,11 +128,6 @@ main p {
   margin-right: 6rem;
 }
 
-#ruler,
-#truck {
-  position: relative;
-  top: 1rem;
-}
 
 /*section philosophy*/
 
