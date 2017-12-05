@@ -79,7 +79,6 @@ header h1 {
   font-weight: bold;
   font-size: 2rem;
   padding: 1.5rem 5rem;
-  border: 1px solid red;
   background-color: white;
   line-height: 1.2;
 }
@@ -98,7 +97,6 @@ main .site-container {
 
 .services {
   height: 8rem;
-  width: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -121,6 +119,8 @@ main p {
 .ruler {
   margin: 0 6rem;
 }
+
+
 
 /*section philosophy*/
 
@@ -184,6 +184,7 @@ footer img {
   header {
     height: 22rem;
     padding-top: 0;
+    margin-bottom: 3.77rem;
   }
 
   .slogan-container {
@@ -202,27 +203,122 @@ footer img {
 
 
 /*phones*/
-@media only screen and (max-width: 470px) {
+
+@media only screen and (max-width: 490px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+
   .site-container {
     max-width: 100%;
   }
 
+  /*header */
+
   header {
-    height: 17rem;
     background-position: 20%;
+    height: 17rem;
+    margin-bottom: 3.77rem;
   }
 
-  .nav-desktop {
-    display: none;
+
+
+  /*header nav*/
+
+    .nav-desktop {
+      display: none;
+    }
+
+    .nav-mobile {
+      display: inline;
+      margin-right: 2rem;
+      padding: 1rem 0;
+    }
+
+
+/*slogan*/
+    .slogan-container {
+      margin-top: 9rem;
+      align-items: center;
+      width: 100%;
+    }
+
+    .slogan {
+      width: 100%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1rem;
+    }
+
+
+    /*services*/
+
+    main .site-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .nav-mobile {
-    display: inline;
-    margin-right: 2rem;
-    padding: 1rem 0;
-  }
+   .services-mobile {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
 
-  .slogan-container {
-    width: 100%;
-  }
+      .ruler {
+        margin-top: 1.54rem;
+        margin-bottom: 1.54rem;
+      }
+
+      main p {
+        font-size: 0.77rem;
+        margin-top: 1rem;
+      }
+
+    /*philo*/
+      section .site-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .description {
+        width: 100%;
+      }
+
+      .philo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      section p {
+        font-size: 0.77rem;
+        margin-left: 0.5rem;
+      }
+
+      #appointments {
+        margin-top: 4rem;
+      }
+
+
+  /*footer*/
+    footer span {
+      display: none;
+    }
+
+    footer img {
+      margin: 0 auto;
+    }
 }
+
+
+/*revoir h1 dans header */
