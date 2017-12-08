@@ -194,17 +194,18 @@ footer img {
 
   header h1 {
     font-size: 1.33rem;
-    padding-top: 0.75rem;
+    padding: 1.5rem 5rem;
+    /*padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 4rem;
-    padding-right: 4rem;
+    padding-right: 4rem;*/
   }
 }
 
 
 /*phones*/
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 800px) {
   * {
     margin: 0;
     padding: 0;
